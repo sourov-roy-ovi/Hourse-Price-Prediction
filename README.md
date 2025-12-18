@@ -8,7 +8,7 @@ This project predicts house prices based on multiple feature using Machine Learn
 
 ### Prediction Result
 <p align="center">
-  <img src="images/prediction_result.png.png" width="500"/>
+  <img src="images/prediction_result.png" width="500"/>
 </p>
 
 
