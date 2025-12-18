@@ -8,7 +8,7 @@ This project predicts house prices based on multiple feature using Machine Learn
 
 ### Prediction Result
 <p align="center">
-  <img src="images/prediction_result.png" width="500"/>
+  <img src="images/update.png" width="500"/>
 </p>
 
 
@@ -76,7 +76,7 @@ House-Price-Prediction/
 ├── templates/
 ├── app.py
 ├── requirements.txt
-└── README.md
+└── README.mdgi
 ```
 
 ## Author
