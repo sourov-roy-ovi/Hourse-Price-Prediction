@@ -1,0 +1,86 @@
+/* ===== Body ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ===== Container ===== */
+.container {
+    width: 400px;
+    background: #ffffffcc; /* হালকা স্বচ্ছতা */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* ===== Headings ===== */
+.container h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 28px;
+}
+
+/* ===== Input Fields ===== */
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #74ebd5;
+    box-shadow: 0 0 8px #74ebd5;
+    outline: none;
+}
+
+/* ===== Button ===== */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #74ebd5, #ACB6E5);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* ===== Prediction Box ===== */
+.prediction {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f0f4f8;
+    border-radius: 12px;
+    font-size: 20px;
+    color: #333;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* ===== Error Message ===== */
+.error {
+    margin-top: 15px;
+    padding: 12px;
+    background: #ffe0e0;
+    color: #d8000c;
+    border-radius: 12px;
+    font-weight: bold;
+}
