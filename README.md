@@ -66,7 +66,7 @@ http://127.0.0.1:5000/
 
 
 ## Project Structure
-
+```text
 House-Price-Prediction/
 │
 ├── data/
@@ -77,7 +77,7 @@ House-Price-Prediction/
 ├── app.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Author
 Sourov Roy ovi
